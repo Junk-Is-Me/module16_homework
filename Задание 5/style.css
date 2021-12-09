@@ -1,0 +1,62 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-transform: lowercase;
+    margin: 0 auto;
+}
+
+p {
+text-align:center;
+}
+
+section {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal {
+    display: block;
+    position: absolute;
+}
+
+form {
+background-color: lavender;
+width: 450px;
+height: 200px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.input_error{
+    box-shadow: 4px 4px 8px 0px rgba(201, 65, 72, 0.5);
+    color: rgb(201, 65, 72);
+}
+
+input{
+    margin: 25px 0 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 250px;
+    text-transform: lowercase;
+}
+
+button {
+margin: 0 0 25px 0;
+width: 300px;
+height: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+text-transform: lowercase;
+}

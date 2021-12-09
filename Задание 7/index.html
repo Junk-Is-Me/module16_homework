@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Задание 7</title>
+</head>
+<body>
+    <section>                        
+            <form action="submit">
+                <div>
+                    <label for="input">id</label>
+                    <input class="input_name" type="text" placeholder="введите id">                 
+                </div>
+                <div>
+                    <button class="button">Получить список задач</button>
+                </div>                
+            </form>
+            <div class="response">
+                <ul>
+                    <li>userId: <span class="userId_value"></span></li>
+                    <li>id: <span class="id_value"></span></li>
+                    <li>title: <span class="title_value"></span></li>
+                    <li>completed: <span class="completed_value"></span></li>                    
+                </ul>            
+            </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
